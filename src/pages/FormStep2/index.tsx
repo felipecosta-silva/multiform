@@ -21,11 +21,7 @@ export const FormStep2 = () => {
     }, []);
 
     const handleNextStep = () => {
-        if (state.name !== '') {
-            navegate('/step3');
-        } else {
-            alert("Preencha os dados.");
-        }
+        navegate('/step3');
     }
 
     const setLevel = (level: number) => {
@@ -38,7 +34,7 @@ export const FormStep2 = () => {
     return (
         <Theme>
             <C.Container>
-                <p>Passo 2/3</p>
+                <p>Passo 2/4</p>
                 <h1>{state.name}, qual nível melhor descreve você?</h1>
                 <p>Escolha a opção que melhor condiz com seu estado atual, profissionalmente.</p>
 

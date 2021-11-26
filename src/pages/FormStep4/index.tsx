@@ -28,7 +28,7 @@ export const FormStep4 = () => {
         <Theme>
             <C.Container>
                 <p>Passo 4/4</p>
-                <h1>{state.name}, chegou a ora de verificar os seus dados</h1>
+                <h1>{state.name}, chegou a hora de verificar os seus dados</h1>
                 <p>Verifique se todos os dados inseridos estão corretos antes de finalizar.</p>
 
                 <hr />
